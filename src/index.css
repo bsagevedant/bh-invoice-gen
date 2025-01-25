@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+  
+  body {
+    margin: 1.6cm;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Only hide the non-printable elements */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Reset background colors and shadows */
+  .print-content {
+    background-color: white !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* Ensure black text */
+  * {
+    color: black !important;
+  }
+
+  /* Force table to fit page */
+  table {
+    page-break-inside: auto !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  /* Ensure QR code prints well */
+  img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Remove background color from container */
+  .bg-gray-100 {
+    background-color: white !important;
+  }
+
+  /* Ensure proper margins and spacing */
+  .max-w-7xl {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}
