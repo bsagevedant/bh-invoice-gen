@@ -1,6 +1,3 @@
-Here is an extensive and more technical `README.md` file for the `bh-invoice-gen` repository:
-
-```markdown
 # BH Invoice Generator
 
 BH Invoice Generator is a robust and efficient tool designed for generating invoices for Bharat Hatchery. This application leverages modern web technologies and adheres to best practices in software development to provide a seamless and user-friendly experience.
@@ -67,7 +64,6 @@ To start the application, use the following command:
 
 ```bash
 npm start
-```
 
 Then, open your browser and navigate to `http://localhost:3000` to access the application.
 
@@ -116,5 +112,3 @@ For any queries, issues, or suggestions, please open an issue on GitHub or conta
 
 Thank you for choosing BH Invoice Generator!
 ```
-
-You can copy and paste this content into your `README.md` file in the repository.
