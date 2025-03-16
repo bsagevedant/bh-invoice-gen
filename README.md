@@ -1,6 +1,7 @@
 # BH Invoice Generator
 
 BH Invoice Generator is a powerful and efficient tool designed for generating invoices for Bharat Hatchery. It utilizes modern web technologies and follows best practices in software development to deliver a seamless and user-friendly experience.
+<img width="1461" alt="Screenshot 2025-03-16 at 7 16 29 PM" src="https://github.com/user-attachments/assets/bb1f5cb3-4e43-4370-9310-b3ac665a5186" />
 
 ## Table of Contents
 
